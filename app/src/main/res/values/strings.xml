@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RCreviewcompanion</string>
+
+
+    <string-array name="ach_names">
+        <item>FAR</item>
+        <item>AFAR</item>
+        <item>TAX</item>
+        <item>MS</item>
+        <item>LAW</item>
+        <item>AUDITING</item>
+    </string-array>
+
+    <string-array name="names_meaning">
+        <item>Financial Accounting and Reporting</item>
+        <item>Advanced Financial Accounting and Reporting</item>
+        <item>Taxation</item>
+        <item>i dont know meaning</item>
+        <item>Legal Aspects of Business</item>
+        <item>Auditing</item>
+    </string-array>
+
+
+</resources>
