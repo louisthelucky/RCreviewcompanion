@@ -12,16 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RCreviewcompanion"
         tools:targetApi="31">
-        <activity
-            android:name=".HistoryView"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".SettingView"-->
+<!--            android:exported="false" />-->
+         <activity
+         android:name=".HistoryView"
+         android:exported="false" />
         <activity
             android:name=".ResultView"
-            android:exported="false" /> <!-- <activity -->
-        <!-- android:name=".QuestionView" -->
-        <!-- android:exported="false" /> -->
+            android:exported="false" />
         <activity
             android:name=".QuestionView"
+            android:exported="false" />
+        <activity
+            android:name=".SettingView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

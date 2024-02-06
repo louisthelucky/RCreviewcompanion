@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".QuestionView">
 
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
@@ -25,7 +35,7 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/button10"
         app:layout_constraintTop_toTopOf="@+id/textView2" />
 
     <TextView
@@ -151,17 +161,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.071" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="43dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="16dp"
-        android:background="#3A4622"
-        android:drawableRight="@drawable/back_icon"
-        app:layout_constraintBottom_toTopOf="@+id/textView7"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

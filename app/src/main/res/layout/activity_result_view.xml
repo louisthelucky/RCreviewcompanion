@@ -76,25 +76,36 @@
         app:layout_constraintStart_toStartOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button"
+        android:drawableRight="@drawable/analyzeimg"
+        android:padding="5dp"
+        android:text="Analyze Answers"
+        android:textColor="@color/white"
+        android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
-        app:srcCompat="@drawable/viewhistorybtn" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+    <Button
+        android:id="@+id/imageButton2"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button"
+        android:drawableRight="@drawable/star"
+        android:padding="5dp"
+        android:text="View Scores History"
+        android:textColor="@color/white"
+        android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:srcCompat="@drawable/viewhistorybtn" />
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
 
     <Button
         android:id="@+id/imageButton"
